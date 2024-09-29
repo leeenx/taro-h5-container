@@ -82,6 +82,9 @@ export default defineConfig(async (merge, { command, mode }) => {
           }
         }
       },
+      router: {
+        mode: 'multi'
+      },
       webpackChain(chain) {
         chain.resolve.plugin('tsconfig-paths').use(TsconfigPathsPlugin)
       }
