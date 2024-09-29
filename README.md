@@ -1,2 +1,6 @@
 # taro-h5-container
-Taro H5运行容器
+提供给 web分包 H5 使用的Taro运行容器。使用 Taro-h5 来构建：
+
+```
+npm run build:h5
+```
