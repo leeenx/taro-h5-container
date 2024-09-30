@@ -4,3 +4,12 @@
 ```
 npm run build:h5
 ```
+
+容器自带了以下依赖：
+
+@tarojs/components
+@tarojs/taro
+react
+react-dom
+lodash
+
