@@ -430,7 +430,7 @@ Object.assign(window, {
   _,
   React,
   ReactDOM,
-  Taro: Object.assign({}, Taro, weappApi),
+  Taro: Object.assign(Taro, weappApi),
   TaroComponents,
   TaroUI
 });

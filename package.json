@@ -1,6 +1,6 @@
 {
   "name": "web-package-taro-h5",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "测试项目",
   "templateInfo": {
     "name": "default",
@@ -9,8 +9,10 @@
     "framework": "React"
   },
   "scripts": {
+    "dev:h5": "npm run build:h5 -- --watch",
     "build:h5": "taro build --type h5",
-    "build": "taro build --type h5"
+    "build": "taro build --type h5",
+    "pack": "taro build --type h5 && zip -r ./dist.zip ./dist"
   },
   "browserslist": [
     "last 3 versions",
